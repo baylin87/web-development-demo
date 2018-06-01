@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        .accordion {
+            position: relative;
+            width: 600px;
+            height: 300px;
+            border: 2px solid #2dcc9f;
+            margin: 10px auto;
+            overflow: hidden;
+        }
+        
+        .accordion .imgs {
+            position: absolute;
+            width: 10000px;
+            height: 100%;
+        }
+        
+        .accordion ul li.li0 {
+            position: absolute;
+            left: 0;
+        }
+        
+        .accordion ul li.li1 {
+            position: absolute;
+            left: 60px;
+        }
+        
+        .accordion ul li.li2 {
+            position: absolute;
+            left: 120px;
+        }
+        
+        .accordion ul li.li3 {
+            position: absolute;
+            left: 180px;
+        }
+        
+        .accordion ul li.li4 {
+            position: absolute;
+            left: 240px;
+        }
+        
+        div img {
+            /* float: left; */
+            padding: 3px;
+        }
+    </style>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <div class="accordion">
+        <ul class="imgs">
+            <li class="li0"><img src="images/weilaichengshi_kehuanhua-001.jpg" alt="" width="520"></li>
+            <li class="li1"><img src="images/weilaichengshi_kehuanhua-002.jpg" alt="" width="520"></li>
+            <li class="li2"><img src="images/weilaichengshi_kehuanhua-003.jpg" alt="" width="520"></li>
+            <li class="li3"><img src="images/weilaichengshi_kehuanhua-004.jpg" alt="" width="520"></li>
+            <li class="li4"><img src="images/weilaichengshi_kehuanhua-005.jpg" alt="" width="520"></li>
+        </ul>
+    </div>
+    <script>
+        $("li").click(function() {
+            //鼠标点击的右边所有li分别向右边移动
+            // console.log($("li:gt(" + $(this).index() + ")"));
+            $("li:gt(" + $(this).index() + ")").each(function(index) {
+                // console.log($(this).index());
+                $(this).animate({
+                    "left": 200 + ($(this).index()) * 40
+                }, 1000)
+            });
+            $("li:lt(" + ($(this).index() + 1) + ")").each(function(index) {
+                // console.log($(this).index());
+                $(this).animate({
+                    "left": ($(this).index()) * 25
+                }, 1000)
+            });
+
+        })
+    </script>
+</body>
+
+</html>

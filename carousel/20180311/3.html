@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .flEffect {
+            width: 600px;
+            height: 100%;
+            border: 1px solid black;
+            margin: 20px auto;
+        }
+        
+        .flEffect .flTab {
+            width: 520px;
+            margin: 10px auto;
+        }
+        
+        h3 {
+            display: block;
+            width: 500px;
+            height: 30px;
+            border: 1px solid skyblue;
+            margin-bottom: 3px;
+            line-height: 30px;
+            text-align: center;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        
+        h3:hover {
+            background-color: rgb(207, 241, 12);
+        }
+        
+        p {
+            display: none;
+        }
+    </style>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <div class="flEffect">
+        <div class="flTab">
+            <h3>我是一个h3</h3>
+            <p>我是内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</p>
+            <h3>我是两个h3</h3>
+            <p>我是很多很多内容内容内容内容内容内容内容</p>
+            <h3>我是三个h3</h3>
+            <p>我是很多很多很多内容内容内容内容内容内容内容</p>
+            <h3>我是四个h3</h3>
+            <p>我是很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多内容内容内容内容内容内容内容</p>
+        </div>
+    </div>
+    <script>
+        // var flag = true;
+        $("h3").click(function() {
+            $(this).next("p").stop(true).slideDown().siblings("p").slideUp();
+        })
+        $(".flTab").mouseleave(function() {
+            $("p").slideUp();
+        })
+    </script>
+</body>
+
+</html>
