@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>163music</title>
+    <link rel="stylesheet" href="./static/font/iconfont.css">
+    <style type="text/css">
+            *{
+                margin: 0;padding: 0;box-sizing:border-box;
+            }
+            ul{
+              list-style: none;
+            }
+            .donghua-enter-active{
+              transition: all 0.5s ease;
+            }
+            .donghua-leave-active{
+              display: none;
+              transition: all 0.5s ease;
+            }
+            .donghua-enter,.donghua-leave-to{
+              transform: translateX(300px);
+            }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="/dist/build.js"></script>
+  </body>
+</html>

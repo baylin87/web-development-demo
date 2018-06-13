@@ -1,0 +1,88 @@
+{
+    "mapList":
+    {
+        "album": [
+        {
+            "albumImg": "../assets/music/album/我要的幸福/No.2《我要的幸福》(2000.12.07).jpg",
+            "albumTitle": "我要的幸福1",
+            "albumSinger": "孙燕姿",
+            "albumbg": "../assets/music/album/我要的幸福/albumbg.jpg",
+            "playerbg": "../assets/music/album/我要的幸福/playerbg.jpg",
+            "albumList": [
+            {
+                "musicName": "我要我的幸福",
+                "musicSinger": "孙燕姿",
+                "musicUrl": "../assets/music/album/我要的幸福/01 我要的幸福.mp3",
+                "musicLyric": "../assets/music/album/我要的幸福/01 我要的幸福.lrc"
+            },
+            {
+                "musicName": "开始懂了",
+                "musicSinger": "孙燕姿",
+                "musicUrl": "../assets/music/album/我要的幸福/04 开始懂了.mp3",
+                "musicLyric": "../assets/music/album/我要的幸福/04 开始懂了.lrc"
+            },
+            {
+                "musicName": "中间地带",
+                "musicSinger": "孙燕姿",
+                "musicUrl": "../assets/music/album/我要的幸福/05 中间地带.mp3",
+                "musicLyric": "../assets/music/album/我要的幸福/05 中间地带.lrc"
+            },
+            {
+                "musicName": "累赘",
+                "musicSinger": "孙燕姿",
+                "musicUrl": "../assets/music/album/我要的幸福/07 累赘.mp3",
+                "musicLyric": "../assets/music/album/我要的幸福/07 累赘.lrc"
+            }]
+        }],
+        "recommend": [{
+            "singerImg": "../assets/music/recommend/袁娅维.jpg",
+            "playerbg": "../assets/music/recommend/袁娅维bg.jpg",
+            "musicName": "说散就散",
+            "musicSinger": "袁维娅",
+            "musicUrl": "../assets/music/recommend/袁维娅-说散就散.mp3",
+            "musicLyric": "../assets/music/recommend/袁娅维-说散就散.lrc"
+        },{
+            "singerImg": "../assets/music/recommend/薛明媛.jpg",
+            "playerbg": "../assets/music/recommend/薛明媛bg.jpg",
+            "musicName": "非酋",
+            "musicSinger": "薛明媛、朱贺",
+            "musicUrl": "../assets/music/recommend/薛明媛、朱贺 - 非酋.mp3",
+            "musicLyric": "../assets/music/recommend/薛明媛、朱贺 - 非酋.lrc"
+        },{
+            "singerImg": "../assets/music/recommend/于文文.jpg",
+            "playerbg": "../assets/music/recommend/于文文bg.jpg",
+            "musicName": "体面",
+            "musicSinger": "于文文",
+            "musicUrl": "../assets/music/recommend/体面-于文文.mp3",
+            "musicLyric": "../assets/music/recommend/体面-于文文.lrc"
+        },{
+            "singerImg": "../assets/music/recommend/she.jpg",
+            "playerbg": "../assets/music/recommend/SHEbg.jpg",
+            "musicName": "你曾是少年",
+            "musicSinger": "SHE",
+            "musicUrl": "../assets/music/recommend/SHE - 你曾是少年.mp3",
+            "musicLyric": "../assets/music/recommend/SHE - 你曾是少年.lrc"
+        },{
+            "singerImg": "../assets/music/recommend/赵雷.jpg",
+            "playerbg": "../assets/music/recommend/赵雷bg.jpg",
+            "musicName": "成都",
+            "musicSinger": "赵雷",
+            "musicUrl": "../assets/music/recommend/赵雷 - 成都.mp3",
+            "musicLyric": "../assets/music/recommend/赵雷 - 成都.lrc"
+        },{
+            "singerImg": "../assets/music/recommend/金志文.jpg",
+            "playerbg": "../assets/music/recommend/金志文bg.jpg",
+            "musicName": "远走高飞",
+            "musicSinger": "金志文、徐佳莹",
+            "musicUrl": "../assets/music/recommend/金志文、徐佳莹 - 远走高飞.mp3",
+            "musicLyric": "../assets/music/recommend/金志文、徐佳莹 - 远走高飞.lrc"
+        },{
+            "singerImg": "../assets/music/recommend/齐一.jpg",
+            "playerbg": "../assets/music/recommend/齐一bg.jpg",
+            "musicName": "这个年纪",
+            "musicSinger": "齐一",
+            "musicUrl": "../assets/music/recommend/齐一 - 这个年纪.mp3",
+            "musicLyric": "../assets/music/recommend/齐一 - 这个年纪.lrc"
+        }]
+    }
+}
