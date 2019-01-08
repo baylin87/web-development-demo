@@ -1,0 +1,16 @@
+{
+  "name": "spid_by_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "json2csv": "^4.3.2",
+    "moment": "^2.23.0"
+  }
+}
